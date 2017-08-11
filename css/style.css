@@ -7,7 +7,12 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: #deefe4;
 }
+.h3{
+  font-family: "Helvetica Neue";
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -17,14 +22,16 @@ body {
   line-height: 60px; /* Vertically center the text there */
   background-color: #01c643;
 }
-
-
+.page-header{
+  color: black;
+}
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-.container {
+.container-footer {
   width: auto;
   max-width: 680px;
   padding: 0 15px;
 }
+
